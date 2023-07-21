@@ -29,8 +29,8 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "tag"  : "v0.1.3",
-                    "commit" : "35604246bebd327f5f1803a89148a42f7cebfa19",
+                    "tag"  : "v0.1.4",
+                    "commit" : "f4e507680f58fcd4b4cb920b550e826bec3f7470",
                     "url" : "https://github.com/Nokse22/teleprompter"
                 }
             ]
