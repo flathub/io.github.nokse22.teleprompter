@@ -1,7 +1,7 @@
 {
     "app-id" : "io.github.nokse22.teleprompter",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "46",
+    "runtime-version" : "47",
     "sdk" : "org.gnome.Sdk",
     "command" : "teleprompter",
     "finish-args" : [
@@ -29,7 +29,7 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "commit" : "deacb74d3ff986feb981d61b5aa6e15f67bd9da5",
+                    "commit" : "0c4b749784527208c76da83dcbf8bcf61ca9308d",
                     "url" : "https://github.com/Nokse22/teleprompter"
                 }
             ]
