@@ -29,7 +29,7 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "commit" : "b1ece511598fef48f743574e7b910fb3aaa0e096",
+                    "commit" : "d669edfa6ec9777f632d15b82528e4faa2595594",
                     "url" : "https://github.com/Nokse22/teleprompter"
                 }
             ]
