@@ -1,7 +1,7 @@
 {
     "app-id" : "io.github.nokse22.teleprompter",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "47",
+    "runtime-version" : "48",
     "sdk" : "org.gnome.Sdk",
     "command" : "teleprompter",
     "finish-args" : [
@@ -23,13 +23,26 @@
     ],
     "modules" : [
         {
+    	  "name": "blueprint-compiler",
+    	  "buildsystem": "meson",
+    	  "sources": [
+    	    {
+    	      "type": "git",
+    	      "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
+    	      "tag": "v0.16.0",
+    	      "commit": "04ef0944db56ab01307a29aaa7303df6067cb3c0"
+    	    }
+    	  ],
+    	  "cleanup": ["*"]
+    	},
+        {
             "name" : "teleprompter",
             "builddir" : true,
             "buildsystem" : "meson",
             "sources" : [
                 {
                     "type" : "git",
-                    "commit" : "bbd36400d131fd934704282b8892a3387ff2d784",
+                    "commit" : "b1e2299cc3aeb3cbcd79a917e7fdc82221a234f1",
                     "url" : "https://github.com/Nokse22/teleprompter"
                 }
             ]
